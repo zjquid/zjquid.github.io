@@ -1,4 +1,4 @@
-* Test Org-mode file for website.
+Test Org-mode file for website.
 
 * Chapter 1
 ** Day 1
