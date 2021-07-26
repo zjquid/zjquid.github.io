@@ -1,6 +1,6 @@
 #+TITLE: Latex Test Document Page for Website
 #+AUTHOR: Andrew Hooke
-#+OPTIONS: tex:t
+#+OPTIONS: tex:imagemagick
 Latex code snippet test... doubtful that this will work.
 
 * Integrals
@@ -14,4 +14,4 @@ Latex code snippet test... doubtful that this will work.
        \[ \int_{x}^{x^2}3x^3+12x^2+13x^5+42 dx \]
    #+end_src
 ...this isnt actually that complex
-   UPDATED3
+   UPDATED4
