@@ -1,0 +1,10 @@
+#+TITLE: 404 Not Found
+#+AUTHOR: Andrew Hooke
+#+OPTIONS: toc:nil num:nil
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* 404 Not Found
+* Menu
+  #+begin_export html
+  <p><a href="https://zjquid.github.io/">Homepage</a></p>
+  #+end_export
