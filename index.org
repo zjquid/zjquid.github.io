@@ -6,11 +6,11 @@
   There isn't much here yet. Feel free to have a look around.
 ** Links  
     #+begin_export html
-     <a href="https://github.com/zjquid/">github</a> 
+    <p><a href="https://github.com/zjquid/">github</a></p>
     #+end_export
     
     #+begin_export html
-    <a href="https://ruralking.bandcamp.com/">bandcamp</a>
+    <p><a href="https://ruralking.bandcamp.com/">bandcamp</a></p>
     #+end_export
 
 
