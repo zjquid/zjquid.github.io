@@ -1,7 +1,0 @@
-Latex code snippet test... doubtful that this will work.
-
-* Integrals
-** Simple integrals:
-   #+begin_src latex
-     \[ \int_{a}^{b} x^2 dx \]
-   #+end_src
