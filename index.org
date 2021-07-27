@@ -1,11 +1,10 @@
 #+TITLE: andrew's website
 #+AUTHOR: Andrew Hooke
 #+OPTIONS: num:nil
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
 * Welcome to andrew's website
   There isn't much here yet.
-** Links
+** Links  
     #+BEGIN_EXPORT html
-     <a href="https://github.com/zjquid/">my github yo</a> 
-    #+END_EXPORT 
-   
+     <a href="https://github.com/zjquid/">my github</a> 
+    #+END_EXPORT
