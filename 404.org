@@ -3,8 +3,7 @@
 #+OPTIONS: toc:nil num:nil
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
-* 404 Not Found
-* Menu
   #+begin_export html
-  <p><a href="https://zjquid.github.io/">Homepage</a></p>
+  <p><img src="gabagool.gif" alt="gabagool"></p>
+  <p><a href="https://zjquid.github.io/">back to the homepage</a></p>
   #+end_export
