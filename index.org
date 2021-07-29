@@ -9,6 +9,10 @@
     <p><a href="https://github.com/zjquid/">github</a></p>
     <p><a href="https://ruralking.bandcamp.com/">bandcamp</a></p>
     #+end_export
+
+    #+begin_export html
+    <p><a href='https://zjquid.github.io/latextest.html'>testing latex stuff</a></p>
+    #+end_export
 * Notes
   #+begin_export html
   <p><a href="https://zjquid.github.io/hidden.html">Class 1</a>
@@ -28,7 +32,20 @@
    
    Kings Island mug from 2009 / FarberWare Electric Percolator \\
 
-   #+begin_export html
-   <p><a href='https://zjquid.github.io/latextest.html'>temp</a></p>
-   #+end_export
+   Adidas 3MC Shoes (white) \\
+** Software I use
+   Manjaro / Ubuntu / Windows 10 \\
+   i3 / openbox \\
+   
+   vlc / qbittorrent / soulseek / plex \\
+   kdenlive / photoshop / ffmpeg / imagemagick \\
+
+   emacs / neovim nightly / git / bash \\
+
+** Companies I endorse
+   Morton Salt \\
+   
+   
+
+
    
