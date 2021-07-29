@@ -3,12 +3,13 @@
 #+OPTIONS: num:nil
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
 
+* Homepage
+
 #+begin_export html
- <p><img src="dance.gif" alt="andrew"></p>
+<p><img src="dance.gif" alt="andrew"></p>
 #+end_export
 
-* Homepage
-  There isn't much here yet. Feel free to have a look around.
+There isn't much here yet. Feel free to have a look around.
 ** Links  
     #+begin_export html
     <p><a href="https://github.com/zjquid/">github</a></p>
