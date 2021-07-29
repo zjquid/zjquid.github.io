@@ -5,11 +5,7 @@
 
 * Homepage
 
-#+begin_export html
-<p><img src="dance.gif" alt="andrew"></p>
-#+end_export
-
-There isn't much here yet. Feel free to have a look around. Enjoy this 20MB gif :^)
+There isn't much here yet. Feel free to have a look around.
 ** Links  
     #+begin_export html
     <p><a href="https://github.com/zjquid/">github</a></p>
