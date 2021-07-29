@@ -17,6 +17,6 @@ Latex code snippet test... doubtful that this will work.
 
    another equation \\
    \begin{equation}
-   \int \int_{2x+5}^{3x-12} 3y^2 + 5y - 6 dy dx
+   \int_{5}^{12} \int_{2x+5}^{3x-12} 3y^2 + 5y - 6 \hspace{1em} dy \hspace{1em} dx
    \end{equation}
 
