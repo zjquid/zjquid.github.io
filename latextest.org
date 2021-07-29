@@ -13,5 +13,10 @@ Latex code snippet test... doubtful that this will work.
    \[ \int_{x}^{x^2}3x^3+12x^2+13x^5+42 dx \]
    \begin{equation}                        
    x=\sqrt{b}                              
-   \end{equation}   
+   \end{equation}
+
+   another equation \\
+   \begin{equation}
+   \int \int_{2x+5}^{3x-12} 3y^2 + 5y - 6 dy dx
+   \end{equation}
 
