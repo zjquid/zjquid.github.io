@@ -1,0 +1,16 @@
+#+TITLE: andrew's website
+#+AUTHOR: Andrew Hooke
+#+OPTIONS: num:nil
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
+* Homepage
+  There isn't much here yet. Feel free to have a look around.
+** Links  
+    #+begin_export html
+    <p><a href="https://github.com/zjquid/">github</a></p>
+    <p><a href="https://ruralking.bandcamp.com/">bandcamp</a></p>
+    #+end_export
+* Notes
+  #+begin_export html
+  <p><a href="https://zjquid.github.io/hidden.html">Class 1</a>
+  <p><a href="https://zjquid.github.io/hidden.html">Class 2</a>  
+  #+end_export
