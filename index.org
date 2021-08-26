@@ -4,21 +4,23 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
 
 * Homepage
+  Welcome to the homepage \\
 
-There isn't much here yet. Feel free to have a look around.
-** Links  
+  Peep the class notes for the different classes. \\
+  I will be deactivating the website during exams fyi \\
+  
+** Links to other stuff 
     #+begin_export html
     <p><a href="https://github.com/zjquid/">github</a></p>
     <p><a href="https://ruralking.bandcamp.com/">bandcamp</a></p>
     #+end_export
 
-    #+begin_export html
-    <p><a href='https://zjquid.github.io/latextest.html'>testing latex stuff</a></p>
-    #+end_export
 * Notes
   #+begin_export html
-  <p><a href="https://zjquid.github.io/hidden.html">Class 1</a>
-  <p><a href="https://zjquid.github.io/hidden.html">Class 2</a>  
+  <p><a href="https://zjquid.github.io/mech343.html">MECH 343</a>
+  <p><a href="https://zjquid.github.io/mech371.html">MECH 371</a>
+  <p><a href="https://zjquid.github.io/psyc203.html">PSYC 203</a>
+  <p><a href="https://zjquid.github.io/caam335.html">CAAM 335</a>
   #+end_export
   
 * Biography
