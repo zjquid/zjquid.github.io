@@ -1,5 +1,6 @@
 #+TITLE: PSYC 203
 #+AUTHOR: Andrew Hooke
+#+OPTIONS: num:nil
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 * Menu
   #+begin_export html
