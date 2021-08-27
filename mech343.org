@@ -14,6 +14,21 @@
 ** Rigid body mechanical systems
    - Newton's second law
      \[
-     M\vec{a} = M\frac{d\vec{v}}{dt} = \vec{F}
+     m\vec{a} = m\frac{d\vec{v}}{dt} = \vec{F}
      \]
+
+     scalar: \[ ma = m\frac{dv}{dt} = f = m\dot{v} \] --> no zeros!
+     \[
+     m\dot{v} = f(x)
+     \]
+     \[
+     [v\,dt]\,m\dot{v} = f(x)[v\,dt]
+     \]
+     \[
+     \int mv\,dv = \int f(x)\,dt = \int \frac{dx}{dt} f(x)\,dt = \int f(x)\,dv
+     \]
+     \begin{equation}
+\frac{1}{2}mv^2 = \int f(x)\,dx + C
+     \end{equation}
+     \emph{kinetic energy = work + integration constant}
      
