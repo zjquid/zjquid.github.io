@@ -27,9 +27,10 @@
      \[
      \int mv\,dv = \int f(x)\,dt = \int \frac{dx}{dt} f(x)\,dt = \int f(x)\,dv
      \]
-     spacer???
+     this finally results in:
      \begin{equation}
      \frac{1}{2}mv^2 = \int f(x)\,dx + C
      \end{equation}
+     .
      \emph{kinetic energy = work + integration constant}
      
