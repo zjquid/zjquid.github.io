@@ -1,8 +1,19 @@
 #+TITLE: MECH 343
 #+AUTHOR: Andrew Hooke
-#+OPTIONS: num:nil
+#+OPTIONS: tex:t num:nil
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 * Menu
   #+begin_export html
   <p><a href="https://zjquid.github.io/">Homepage</a></p>
   #+end_export
+
+* Class 1 - 8/27/21
+** Dynamic systems
+   - modeling systems (equations of motion)
+   - system behavior (solutions x(t))  
+** Rigid body mechanical systems
+   - Newton's second law
+     \[
+     M\vec{a} = M\frac{d\vec{v}}{dt} = \vec{F}
+     \]
+     
