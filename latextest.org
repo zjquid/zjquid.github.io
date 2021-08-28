@@ -1,6 +1,6 @@
 #+TITLE: Latex Test Document Page for Website
 #+AUTHOR: Andrew Hooke
-#+OPTIONS: tex:t toc:nil num:nil
+:#+OPTIONS: tex:t toc:nil num:nil
 Latex code snippet test... doubtful that this will work.
 
 * Integrals

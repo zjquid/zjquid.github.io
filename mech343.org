@@ -7,7 +7,7 @@
   <p><a href="https://zjquid.github.io/">Homepage</a></p>
   #+end_export
 
-* Class 1 - 8/27/21
+* Class 2 - 8/27/21
 ** Dynamic systems
    - modeling systems (equations of motion)
    - system behavior (solutions x(t))  
@@ -18,19 +18,23 @@
      \]
 
      scalar: \[ ma = m\frac{dv}{dt} = f = m\dot{v} \] --> no zeros!
-     \[
-     m\dot{v} = f(x)
-     \]
-     \[
-     [v\,dt]\,m\dot{v} = f(x)[v\,dt]
-     \]
-     \[
-     \int mv\,dv = \int f(x)\,dt = \int \frac{dx}{dt} f(x)\,dt = \int f(x)\,dv
-     \]
-     this finally results in:
-     \begin{equation}
-     \frac{1}{2}mv^2 = \int f(x)\,dx + C
-     \end{equation}
-     .
-     \emph{kinetic energy = work + integration constant}
      
+     \[
+	m\dot{v} = f(x)
+     \]
+     \[
+	[v\,dt]\,m\dot{v} = f(x)[v\,dt]
+     \]
+     \[
+	\int mv\,dv = \int f(x)\,dt = \int \frac{dx}{dt} f(x)\,dt = \int f(x)\,dv
+     \]
+     
+     this finally results in:
+     
+     \begin{equation}
+	\frac{1}{2}mv^2 = \int f(x)\,dx + C \\
+	\small{\textit{kinetic energy = work + integration constant}}
+     \end{equation}
+
+     
+   
