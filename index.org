@@ -1,6 +1,6 @@
 #+TITLE: andrew's website
 #+AUTHOR: Andrew Hooke
-#+OPTIONS: num:nil
+#+OPTIONS: tex:t num:nil
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
 
 * Homepage
@@ -8,13 +8,16 @@
 
   Peep the class notes for the different classes. \\
   I will be deactivating the website during exams fyi \\
-  
+
 ** Links to other stuff 
     #+begin_export html
     <p><a href="https://github.com/zjquid/">github</a></p>
     <p><a href="https://ruralking.bandcamp.com/">bandcamp</a></p>
     #+end_export
 
+  \[
+	\small{\textit{Made with emacs, a core 2 duo, and love}}
+  \]
 * Notes
   #+begin_export html
   <p><a href="https://zjquid.github.io/mech343.html">MECH 343</a>
@@ -26,7 +29,7 @@
 * Biography
 ** Hardware I use
    i7-9700k / GTX 1660 Super \\
-   Thinkpad x201 / x230 / W520 / W500 / I change it up a lot \\
+   Thinkpad x200 / x201 / x230 / W520 / W500 / I change it up a lot \\
    Sometimes Acer R11 or x131e chromebooks (coreboot + linux) for watching tv or traveling \\
    
    iPod Classic 5.5th gen / flash storage / rockbox (theme available on github soon maybe?) \\
