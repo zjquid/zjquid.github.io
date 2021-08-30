@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-08-28 Sat 04:54 -->
+<!-- 2021-08-30 Mon 11:57 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>MECH 343</title>
@@ -251,39 +251,41 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orge23ea84">Menu</a></li>
-<li><a href="#org6630d1e">Class 2 - 8/27/21</a>
+<li><a href="#org12991f2">Menu</a></li>
+<li><a href="#org69747aa">Class 2 - 8/27/21</a>
 <ul>
-<li><a href="#orga432f50">Dynamic systems</a></li>
-<li><a href="#org3ffb6d2">Rigid body mechanical systems</a></li>
+<li><a href="#orgc8ef715">Dynamic systems</a></li>
+<li><a href="#org909eba6">Rigid body mechanical systems</a></li>
+<li><a href="#org716754c">Pulley dynamics</a></li>
 </ul>
 </li>
+<li><a href="#orgc17875a">Class 3 - 8/30/21</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orge23ea84" class="outline-2">
-<h2 id="orge23ea84">Menu</h2>
-<div class="outline-text-2" id="text-orge23ea84">
+<div id="outline-container-org12991f2" class="outline-2">
+<h2 id="org12991f2">Menu</h2>
+<div class="outline-text-2" id="text-org12991f2">
 <p><a href="https://zjquid.github.io/">Homepage</a></p>
 </div>
 </div>
 
-<div id="outline-container-org6630d1e" class="outline-2">
-<h2 id="org6630d1e">Class 2 - 8/27/21</h2>
-<div class="outline-text-2" id="text-org6630d1e">
+<div id="outline-container-org69747aa" class="outline-2">
+<h2 id="org69747aa">Class 2 - 8/27/21</h2>
+<div class="outline-text-2" id="text-org69747aa">
 </div>
-<div id="outline-container-orga432f50" class="outline-3">
-<h3 id="orga432f50">Dynamic systems</h3>
-<div class="outline-text-3" id="text-orga432f50">
+<div id="outline-container-orgc8ef715" class="outline-3">
+<h3 id="orgc8ef715">Dynamic systems</h3>
+<div class="outline-text-3" id="text-orgc8ef715">
 <ul class="org-ul">
 <li>modeling systems (equations of motion)</li>
 <li>system behavior (solutions x(t))</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3ffb6d2" class="outline-3">
-<h3 id="org3ffb6d2">Rigid body mechanical systems</h3>
-<div class="outline-text-3" id="text-org3ffb6d2">
+<div id="outline-container-org909eba6" class="outline-3">
+<h3 id="org909eba6">Rigid body mechanical systems</h3>
+<div class="outline-text-3" id="text-org909eba6">
 <ul class="org-ul">
 <li><p>
 Newton's second law
@@ -315,15 +317,221 @@ this finally results in:
 \begin{equation}
    \frac{1}{2}mv^2 = \int f(x)\,dx + C \\
    \small{\textit{kinetic energy = work + integration constant}}
+\end{equation}
+
+<p>
+If work done by f(x) is done independent of path (conservative), then f(x) can be derived from another function: V(x)
+</p>
+
+<ul class="org-ul">
+<li>Variable force case (conservative)</li>
+</ul>
+
+<p>
+\[
+	\int f(x) = \int \frac{-dV}{dx}
+	\small{\textit{where f(x) is a conservative force}}
+     \]
+</p>
+
+<p>
+\[
+	\int f(x)\,dx = \int -dV
+     \]
+</p>
+
+<p>
+\[
+	-\int f(x)\,dx = V(x)
+     \]
+</p>
+
+<p>
+Think back to equation 1, plug in the above equation into f(x)
+</p>
+
+\begin{equation}
+   \frac{1}{2}mv^2 + V(x) = C \\
+   \small{\textit{therefore, V(x) = potential energy}}
+\end{equation}
+
+<p>
+\[
+	\Delta KE + \Delta PE = 0
+     \]
+</p>
+
+<p>
+\[
+	\frac{1}{2}m(v^2 - v_0^2) + [V(x) - V(x_1)] = 0
+     \]
+</p>
+
+\begin{equation}
+   \frac{1}{2}mv^2_0 + V(x) = \frac{1}{2}mv^2 + V(x)
+   \small{\textit{@ t = 0}}
+\end{equation}
+
+<ul class="org-ul">
+<li><p>
+Constant force case, f = constant
+</p>
+
+\begin{equation}
+ \frac{1}{2}mv^2 = f(x-x_0) + \frac{1}{2}mv^2_0 \\
+ \small{\textit{work done by f, "f" * (delta X)}}
 \end{equation}</li>
+</ul></li>
+
+<li>Dry friction force
+<ul class="org-ul">
+<li>non-conservative, work depends on path taken</li>
+<li>therefore coulomb friction can't be derived from a PE function -&gt; conservation of mechanical energy is not conserved (heat, etc.)</li>
+</ul></li>
+
+<li>Rotational is the same, but mass -&gt; inertia <br />
+Translational V -&gt; Rotational V</li>
+
+<li>Newton's 2nd: \[ I_o * \dot{\omega} = m_0 \]</li>
+
+<li>Mass moment of inertia: \[ I = \int r^2\,dx \] <br />
+In this class, use common geometry inertia moments :)</li>
+
+<li>Parallel axis theorem <br />
+If rotating about point other than center of mass, apply PAT:
+\[ I_o = I_s + md^2 \] <br />
+\[ \small{\textit{where I_o is the inertia about rotation axis, I_s is inertia about symmetry axis, and md^2 is mass * distance between o and s}} \]</li>
+
+<li><p>
+energy of rotational motion <br />
+work done by moment M causes rotation through angle &theta;
+</p>
+
+<p>
+\[
+	w = \int_{0}^{\theta} m\,d\theta
+     \]
+</p>
+
+<p>
+\[
+	I\omega\,d\omega = m\,d\theta
+     \]
+</p>
+
+<p>
+\[
+	KE = \frac{1}{2}I\omega^2
+     \]
+</p>
+
+<p>
+Do the same steps as needed with the translational system
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org716754c" class="outline-3">
+<h3 id="org716754c">Pulley dynamics</h3>
+<div class="outline-text-3" id="text-org716754c">
+<ul class="org-ul">
+<li>Changes direction of applied force</li>
+<li>Amplify forces</li>
+<li>Assumptions: <br />
+assume pulley cable is inextensible <br />
+assume no slipping <br /></li>
+</ul>
+
+\begin{equation}
+     I\ddot{\theta} = RT_1 - RT_2 \\
+\end{equation}
+
+<p>
+If left side of equation is negligible, T<sub>1</sub> ~= T<sub>2</sub>
+</p>
+<ul class="org-ul">
+<li><p>
+is negligible when:
+</p>
+
+<p>
+\[
+     \ddot{\theta} = 0 \\
+     \small{\textit{velocity = constant}}
+     \]
+</p>
+
+<p>
+or when I is very small
+</p>
+
+<a href='https://raw.githubusercontent.com/zjquid/homework/main/mech343/figures/c2f1_pulley.PNG?token=AJQ7C2NZAZK57PNCMO2V6B3BFUGNU' target='_blank'>Pulley Figure (opens in new tab)</a></li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>If we neglect I, system moves when m<sub>1</sub> &gt; m<sub>2</sub></li>
+<li><p>
+If we don't:
+</p>
+
+<p>
+\[
+	\Delta KE + \Delta PE = 0
+       \]
+</p>
+
+<p>
+\[
+	KE = \frac{1}{2} m_1\dot{x}^2 + \frac{1}{2}m_2\dot{y}^2 + \frac{1}{2}I\dot{\theta}^2
+       \]
+</p>
+
+<p>
+\[
+	PE = m_2 g y - m_1 g x
+       \]
+</p>
+
+<p>
+\[
+	0 = \frac{1}{2} m_1\dot{x}^2 + \frac{1}{2} m_2\dot{x}^2 + \frac{1}{2} I(\frac{\dot{x}}{R})^2 + m_2 g x - m_1 g x
+       \]
+</p>
+
+<p>
+\[
+	0 = \frac{1}{2} (m_1 + m_2 + \frac{I}{R^2})\dot{x}^2 + (m_2 - m_1) g x = 0
+       \]
+</p>
+
+<p>
+\[
+	\dot{x} = \sqrt{\frac{2(m_1 - m_2) g x}{m_1 + m_2 + \frac{I}{R^2}}}
+       \]
+</p>
+
+<p>
+therefore dot{x} is positive when m<sub>1</sub> &gt; m<sub>2</sub>
+</p></li>
 </ul>
 </div>
 </div>
 </div>
+
+
+
+
+
+<div id="outline-container-orgc17875a" class="outline-2">
+<h2 id="orgc17875a">Class 3 - 8/30/21</h2>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Andrew Hooke</p>
-<p class="date">Created: 2021-08-28 Sat 04:54</p>
+<p class="date">Created: 2021-08-30 Mon 11:57</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
