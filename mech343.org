@@ -137,8 +137,10 @@
 
         #+ATTR_LATEX:
         [[~/homework/mech343/figures/c2f1_pulley.PNG]]
-
+#+begin_export html
         <img src="~/homework/mech343/figures/c2f1_pulley.PNG" alt="Pulley Figure"> 
+#+end_export
+
    
      - If we neglect I, system moves when m_1 > m_2
      - If we don't:
