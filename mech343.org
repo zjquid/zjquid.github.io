@@ -7,7 +7,7 @@
   <p><a href="https://zjquid.github.io/">Homepage</a></p>
   #+end_export
 
-* Class 2 - 8/27/21
+* 8/27/21
 ** Dynamic systems
    - modeling systems (equations of motion)
    - system behavior (solutions x(t))  
@@ -170,5 +170,28 @@
 
 
    
+* 8/30/21     
 
-* Class 3 - 8/30/21     
+* 9/10/21
+** Car suspension example
+#+ATTR_LATEX:
+[[~/homework/mech343/figures/9_10_21_carsuspension.jpg]]
+
+Draw FBDs of masses, springs, dampers.\\
+On springs/dampers, forces point outwards from the spring. \\
+
+\[
+f_{k_2} = k_2 (x_2 - x_1)
+\]
+
+\[
+f_{b_2} = b_2 (\dot{x}_2 - \dot{x}_1)
+\]
+
+\[
+f_{k_1} = k_1 (x_1 - x_p)
+\]
+
+\[
+f_{b_1} = b_1 (\dot{x}_1 - \dot{x}_p)
+\]
