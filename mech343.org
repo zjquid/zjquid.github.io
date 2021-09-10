@@ -138,7 +138,7 @@
         #+ATTR_LATEX:
         [[~/homework/mech343/figures/c2f1_pulley.PNG]]
 #+begin_export html
-        <img src="~/homework/mech343/figures/c2f1_pulley.PNG" alt="Pulley Figure"> 
+        <img src="figures/mech343/c2f1_pulley.PNG" alt="Pulley Figure"> 
 #+end_export
 
    
@@ -171,7 +171,7 @@
 
        therefore dot{x} is positive when m_1 > m_2
 
-
+       
 
 * 8/30/21
 * 9/10/21
