@@ -135,12 +135,9 @@
 
      or when I is very small
 
-	#+begin_export html
-	<a href='https://raw.githubusercontent.com/zjquid/homework/main/mech343/figures/c2f1_pulley.PNG?token=AJQ7C2NZAZK57PNCMO2V6B3BFUGNU' target='_blank'>Pulley Figure (opens in new tab)</a>
-	#+end_export
-
-
-   
+        #+ATTR_LATEX:
+        [[~/homework/mech343/figures/c2f1_pulley.PNG]]
+        
      - If we neglect I, system moves when m_1 > m_2
      - If we don't:
 
