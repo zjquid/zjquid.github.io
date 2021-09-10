@@ -173,14 +173,12 @@
 
 
 
-   
-* 8/30/21     
-
+* 8/30/21
 * 9/10/21
 ** Car suspension example
 #+ATTR_LATEX:
 [[~/homework/mech343/figures/9_10_21_carsuspension.jpg]]
-
+*** Not including mg
 Draw FBDs of masses, springs, dampers.\\
 On springs/dampers, forces point outwards from the spring. \\
 
@@ -199,3 +197,35 @@ f_{k_1} = k_1 (x_1 - x_p)
 \[
 f_{b_1} = b_1 (\dot{x}_1 - \dot{x}_p)
 \]
+
+Apply Newton's 2nd law:
+
+\[
+\Sigma F = m\ddot{x}
+\]
+
+\[
+m_2 \ddot{x}_2 = -f_{k_2} - f_{b_2}
+\]
+
+Swap in definitions for the forces to find the EOMs
+
+\begin{equation}
+m_2 \ddot{x}_2 + k_2 (x_2 - x_1) + b_2 (\dot{x}_2 - \dot{x}_1) = 0
+\end{equation}
+
+\begin{equation}
+m_1 \ddot{x}_1 + k_1 (x_1 - x_p) + b_1 (\dot{x}_1 - \dot{x}_p) - b_2 (\dot{x}_2 - \dot{x}_1) - k_2 (x_2 - x_1) = 0
+\end{equation}
+
+If you reverse the directions of the forces, so they point inward on the spring FBDs, you end up with the same result. \\
+This is because the forces in the Newton's 2nd equation change sign, and the force definition changes sign. \\
+Negative of a negative = positive, it's the same thing!
+
+
+
+*** Including mg
+When mg is included:
+#+begin_export html
+<img src='figures/mech343/9_10_21_mgincluded.jpg' alt='Spring system with mg included'>
+#+end_export
