@@ -176,8 +176,10 @@
 * 8/30/21
 * 9/10/21
 ** Car suspension example
-#+ATTR_LATEX:
-[[~/homework/mech343/figures/9_10_21_carsuspension.jpg]]
+#+begin_export html
+<img src='figures/mech343/9_10_21_carsuspension.jpg' alt='Car suspension diagram'>
+#+end_export
+
 *** Not including mg
 Draw FBDs of masses, springs, dampers.\\
 On springs/dampers, forces point outwards from the spring. \\
