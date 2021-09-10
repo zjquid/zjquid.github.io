@@ -177,7 +177,7 @@
 * 9/10/21
 ** Car suspension example
 #+begin_export html
-<img src='figures/mech343/9_10_21_carsuspension.jpg' alt='Car suspension diagram'>
+<img src='figures/mech343/9_10_21_carsuspension.jpg' alt='Car suspension diagram' width='300'>
 #+end_export
 
 *** Not including mg
@@ -229,5 +229,17 @@ Negative of a negative = positive, it's the same thing!
 *** Including mg
 When mg is included:
 #+begin_export html
-<img src='figures/mech343/9_10_21_mgincluded.jpg' alt='Spring system with mg included'>
+<img src='figures/mech343/9_10_21_mgincluded.jpg' alt='Spring system with mg included' width='300'>
 #+end_export
+
+\[
+\delta_{st} = \small{\textit{static equilibrium deflection}}
+\]
+
+and L = length of unstretched spring.
+
+\begin{document}
+\[ L + \delta_{st} = length of spring when only mg is acting on it (no applied force) \]
+\end{document}
+
+figure out why this ^^^ doesn't work!
