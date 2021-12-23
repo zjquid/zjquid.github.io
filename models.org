@@ -1,0 +1,62 @@
+#+TITLE: Overview of laptop models
+#+AUTHOR: Andrew Hooke
+#+OPTIONS: tex:t num:nil
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+begin_export html
+<p><a href="https://zjquid.github.io/index.html">Homepage</a>
+#+end_export
+* Thinkpads (Lenovo/IBM)
+** T Models
+*** T43 and earlier
+Only 32 bit and have those hard drives with a million pins instead of SATA. Not worth purchasing unless you're an enthusiast.
+*** T60
+The T60 is pretty interesting. Wide range of specs, most of which can be upgraded to match a T61. Not really any better than a T61.
+*** T61
+The last 4:3 Thinkpad. Avoid the models with the Nvidia GPU, as it typically fries the motherboard after a few years... since the T61 is from 2007, those models are ticking time bombs. That being said, I have two of them and they're fine. The high res panel (1400x1050) is pretty nice for its age.
+*** T400
+The high res model is nice, avoid the 800p models. Pretty solid with the P8600 processor (more on this under the entry for the x200). DDR3 ram shows a significant improvement over the T61, as well as having a much more efficient processor. The T400/T500/W500/W700 don't have two-finger scrolling, only edge scrolling, which is incredibly disappointing. There is a workaround on Windows, however.
+*** T500
+Great panel for such an old laptop. Typically has the higher spec Penryn core 2 duo processors: they run hot but are pretty good. One of my favorite Thinkpads, love the 15 inch 16:10 display.
+*** T410
+Basically just a T400 with two-finger scrolling. The first-gen Core i processors aren't great.
+*** T420
+Classic, first Thinkpad with a 16:9 display.
+*** T430 
+Just a better T420, has a mini displayport, better battery, and the Ivybridge processors are a huge step up from Sandybridge.
+** X Models
+*** x200
+The best thinkpad ever made. The core 2 duo P8600 is perfect, uses battery pretty efficiently, fast enough for most daily usage, and stays very cool... even cooler than the midrange Ivybridge processors. 16:10 display
+** W Models
+Just the 15 inch T models with better graphics, and sometimes better panels.
+** New Models
+* Dell
+** Latitude Series
+The Dell Latitude is typically decent. I've worked on the X300, D420, and some 15 inch Latitude with an 8th gen i7. The build quality on the older models are much better, but still remains defeated by old Thinkpads. The 8th gen i7 Latitude was very cheap feeling and flexible, no idea about newer models.
+** Inspiron Series
+Generally pretty crap, but can be cheap. Sufficient for attaching to a monitor and playing retro games.
+** XPS Series
+The new Dell XPS laptops I've seen at microcenter seem to be very solid and nice, at the cost of having only USB C ports and all parts soldered.
+** Precision Series
+I know nothing about these.
+* HP
+** Older HP stuff
+Elitebooks etc. used to be nice.
+** Newer HP stuff
+New HP is garbage. Avoid.
+* Acer
+** Chromebooks
+Acer Chromebooks are not the worst thing ever... lots of coreboot support, and sometimes have decent screens. The Acer R11 is pretty nice, 768p IPS with a mini m.2 ssd and no fan; it has sufficient ports, including an HDMI. If you can find these for cheap, grab one, I use one for watching movies in hotel rooms through HDMI. Some of the newer Chromebooks have soldered on memory... usually around 32gb!! AVOID... although I did buy one for cheap with a 1080p IPS... will be my new hotel-movie-laptop, because I store the movies on a flash drive anyways.
+** Non-Chromebooks
+They're all crap, avoid.
+* Apple
+** Old Apple Laptops
+"Old" means any model that doesn't look like the stuff they sell currently. \\
+
+Usually overpriced, thrift stores see the Apple logo and think it's worth it's weight in gold. The core 2 duo models (the white polycarbonate macbooks) are okay, but I think the main appeal for me is nostalgia. Otherwise, they get very hot, the motherboard is very difficult (on purpose) to remove and clean, and I think they even use DDR2 ram. The displays are usually solid though. I use mine to run an iMessage server.
+** New Apple Laptops
+"New" means any model that uses the aluminum design they've used for the last decase or so... pretty much started at the beginning of the Core i processors. \\
+
+Mainly garbage. If Mac OSX is a necessity, get a cheap macbook pro without the crappy butterfly swtiches with an ssd and pay someone to repaste the processor. \\
+
+The new M1 macbooks are interesting, hope other manufacturers try their hand at ARM laptops.
+

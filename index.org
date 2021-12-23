@@ -5,10 +5,6 @@
 
 * Homepage
   Welcome to the homepage \\
-
-  Peep the class notes for the different classes. \\
-  I will be deactivating the website during exams fyi \\
-
 ** Links to other stuff 
     #+begin_export html
     <p><a href="https://github.com/zjquid/">github</a></p>
@@ -18,42 +14,17 @@
   \[
 	\small{\textit{Made with emacs, a core 2 duo, and love}}
   \]
-* Notes
+* Laptop stuff
   #+begin_export html
-  <p><a href="https://zjquid.github.io/mech343.html">MECH 343</a>
-  <p><a href="https://zjquid.github.io/mech371.html">MECH 371</a>
-  <p><a href="https://zjquid.github.io/psyc203.html">PSYC 203</a>
-  <p><a href="https://zjquid.github.io/caam335.html">CAAM 335</a>
+  <p><a href="https://zjquid.github.io/models.html">Overview of models</a>
   #+end_export
   
-* Biography
-** Hardware I use
-   i7-9700k / GTX 1660 Super \\
-   Thinkpad x200 / x201 / x230 / W520 / W500 / I change it up a lot \\
-   Sometimes Acer R11 or x131e chromebooks (coreboot + linux) for watching tv or traveling \\
-   
-   iPod Classic 5.5th gen / flash storage / rockbox (theme available on github soon maybe?) \\
-   Koss porta-pro / AKG K240 / raycons sometimes lol \\
-   
-   Sometimes Nintendo DS Lite with flash cart to play tetris when flying :^) \\
-   
-   Kings Island mug from 2009 / FarberWare Electric Percolator \\
-
-   Adidas 3MC Shoes (white) \\
-** Software I use
-   Manjaro / Ubuntu / Windows 10 \\
-   i3 / openbox \\
-   
-   vlc / qbittorrent / soulseek / plex \\
-   kdenlive / photoshop / ffmpeg / imagemagick \\
-
-   emacs / neovim nightly / git / bash \\
-
-** Companies I endorse
-   Morton Salt \\
-   Rural King \\
-   
    
 
 
    
+* About
+** How I do my computing
+PC: i7-9700k / GTX 1660 Super \\
+Laptop: Changes a lot, but usually my busted x200 \\
+Essential Software: Emacs / Linux kernel \\
