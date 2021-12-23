@@ -24,11 +24,15 @@ Classic, first Thinkpad with a 16:9 display.
 *** T430 
 Just a better T420, has a mini displayport, better battery, and the Ivybridge processors are a huge step up from Sandybridge.
 ** X Models
+*** x61
 *** x200
-The best thinkpad ever made. The core 2 duo P8600 is perfect, uses battery pretty efficiently, fast enough for most daily usage, and stays very cool... even cooler than the midrange Ivybridge processors. 16:10 display
+The best thinkpad ever made. The core 2 duo P8600 is perfect, uses battery pretty efficiently, fast enough for most daily usage, and stays very cool... even cooler than the midrange Ivybridge processors. 16:10 display.
+*** x201
+Basically the same as the x200, but with the first gen Core i processors and a trackpad. The trackpad is the best trackpad I've ever used (although I don't think gestures would translate well on it, if gestures are important to you). Gets hotter than the x200, with similar performance, and worse battery life. Stick to the x200, although the x201 is still a great choice (I have two of them).
 ** W Models
 Just the 15 inch T models with better graphics, and sometimes better panels.
 ** New Models
+Avoid. Build quality is much worse than it used to be, Lenovo is no longer the best on the market.
 * Dell
 ** Latitude Series
 The Dell Latitude is typically decent. I've worked on the X300, D420, and some 15 inch Latitude with an 8th gen i7. The build quality on the older models are much better, but still remains defeated by old Thinkpads. The 8th gen i7 Latitude was very cheap feeling and flexible, no idea about newer models.
@@ -60,3 +64,7 @@ Mainly garbage. If Mac OSX is a necessity, get a cheap macbook pro without the c
 
 The new M1 macbooks are interesting, hope other manufacturers try their hand at ARM laptops.
 
+* Framework
+more on this later...
+* MNT Reform
+Meme laptop. I do not recommend it, but you do you.
