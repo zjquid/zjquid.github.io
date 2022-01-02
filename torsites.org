@@ -1,0 +1,19 @@
+#+TITLE: Torrent Websites
+#+AUTHOR: Andrew Hooke
+#+OPTIONS: tex:t num:nil
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+  #+begin_export html
+  <p><a href="https://zjquid.github.io/">back to the homepage</a></p>
+  #+end_export
+
+* TV Shows
+#+begin_export html
+<p><a href="https://torlock.com/">Torlock</a></p>
+#+end_export
+#+begin_export html
+<p><a href="https://eztv.re/">EZTV</a></p>
+#+end_export
+* Movies and Software (also some TV shows)
+#+begin_export html
+<p><a href="https://1337x.to/">1337x</a></p>
+#+end_export
