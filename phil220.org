@@ -1,3 +1,4 @@
+
 #+TITLE: PHIL 220
 #+AUTHOR: Andrew Hooke
 #+OPTIONS: tex:t num:nil
@@ -27,8 +28,6 @@
 - To become more proficient in productively engaging viewpoints quite different from your own.
   * Professor's goal is to be a moderator, not use this course as a soapbox to project his own beliefs/opinions on said viewpoints.
 
-
-
 ** 1.1 - Some Logic
 *** Deductive arguments
 - Validity is only about the structure of the argument, not about the truth of the premises or conclusion
@@ -44,3 +43,51 @@
   Basically running the argument backwards, not necessarily valid.
 - Denying the antecedent
   Basically the opposite/negative version of the argument: if NOT this, then NOT that... not necessarily valid.  
+
+* Jan 13 2022
+** William Rowe
+- The Cosmological Argument
+  * Every being is either a dependent being, or a self-existent being
+  * Not every being can be a dependent being
+  * Therefore, there exists a self-existent being
+This argument is *deductibly valid* - if the premises are true, then the conclusion is always true.    
+
+- Structure of the argument:
+  * Either A or B
+  * Not A...
+  * Therefore B!
+This is a *disjunctive syllogism*
+
+** The Principle of Sufficient Reason
+- Premise 1 seems trivial, but Rowe claims it isn't
+- Premise 1 denies the idea that things exist by nothing, with no explanation:
+- The PSR:
+  * There must be an explanation of (a) the existence of any being, and (b) of any positive fact whatsoever.
+  * If the first part of the PSR is true, then the first premise is true.
+** The Second Premise
+- Suppose A_1 is the only being that exists, gives birth to A_2, etc. towards A_n
+- It seems like every being is a dependent being
+- Implementing temporal ideas to prove premise 2:
+  * There must be a *temporally first* being to start any causal series
+  * If every being were dependent there would be no temporally first being to start the causal series
+  * Therefore, not every being can be a dependent being
+- In the world where A_1 gives birth to A_2, then A_1 dies, in the lonely world of just A_2, PSRa is true, but PSRb is not - there is no explanation of the existence of A_2 itself.
+** Objections
+- Not all being can be dependent beings:
+  * Treating a series of dependent beings is treated as if the series itself were a dependent being - the *series* as a concept is dependent on something.
+- The cosmological argument claims that if each individual member of the series has a cause, the series as a whole has a cause. This is fallacious: it like inferring the entire human race has a mother because each individual has a mother.
+- just look at the 1.2 handout
+** Responses to objections
+- 1: A collection of human beings is not a human beings - there exists a concept of a collection
+- 2: just look at the 1.2 handout
+
+** Question:
+*** What are the best reasons for thinking the PSR holds all the time? What are the best reasons for thinking that it doesn't?
+- Does:
+  * The reason for existence can be explained by the existence itself - like the A_n series example.
+  * Just because we can't find a reason doesn't mean a reason doesn't exist - we might just not have the ability to find one.
+  * Our inability to explain is an explanation in itself.    
+- Doesn't:
+  * This seems like a cop-out, saying that everything has a reason, and if we can't find one, it exists but we have no capability to find/understand it... but at the same time there is no reason not to believe this "cop-out" answer.
+  * Using this idea, we may not have the capability to find an explanation why the PSR doesn't hold up.
+This is confusing.    
