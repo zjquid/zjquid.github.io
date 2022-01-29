@@ -23,8 +23,5 @@
 PC: i7-9700k / GTX 1660 Super \\
 Laptop: Changes a lot, but usually my busted x200 \\
 Essential Software: Emacs / Linux kernel \\
-
 * Notes
-  #+begin_export html
-  <p><a href="https://zjquid.github.io/phil220.html">PHIL 220</a>
-  #+end_export
+
