@@ -1,3 +1,4 @@
+
 #+TITLE: Torrent Websites
 #+AUTHOR: Andrew Hooke
 #+OPTIONS: tex:t num:nil
@@ -8,12 +9,9 @@
 
 * TV Shows
 #+begin_export html
-<p><a href="https://torlock.com/">Torlock</a></p>
+<p><a href="https://rarbg.to/">rarbg.to</a></p>
 #+end_export
-#+begin_export html
-<p><a href="https://eztv.re/">EZTV</a></p>
-#+end_export
-* Movies and Software (also some TV shows)
+* COMMENT Movies and Software (also finished TV shows in bulk)
 #+begin_export html
 <p><a href="https://1337x.to/">1337x</a></p>
 #+end_export
