@@ -11,7 +11,7 @@
 #+begin_export html
 <p><a href="https://rarbg.to/">rarbg.to</a></p>
 #+end_export
-* COMMENT Movies and Software (also finished TV shows in bulk)
+* Movies and Software (also finished TV shows in bulk)
 #+begin_export html
 <p><a href="https://1337x.to/">1337x</a></p>
 #+end_export
