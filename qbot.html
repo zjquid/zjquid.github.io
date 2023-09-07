@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Sewing Speed Control User Interface - Machine #{{html_saved_machine_ID}}</h1>
+
+The machine is <B><U>{{html_start_mode_name}}</U></B>.
+
+<h3>Machine Type</h3>
+<form method="POST">
+  <label for="machine_type">Choose a machine type:</label>
+  <select id="machine_type" name="machine_type">
+    <option value=0>Juki 20XX</option>
+    <option value=1>Juki 98E</option>
+    <option value=2>Juki 98Q</option>
+    <option value=3>Janome</option>
+    <option value=4>Brother</option>
+  </select>
+  <script>
+  const $select = document.querySelector('#machine_type');
+  $select.value = {{html_selected_machine}}
+  </script>
+<input type="submit" value="Send">
+</form>
+=> The selected machine type is <B><font color="green">{{html_selected_machine_name}}</font></B>.
+
+<h3>Mode</h3>
+<form method="POST">
+  <label for="mode">Choose a mode:</label>
+  <select id="mode" name="mode">
+    <option value=1>Normal</option>
+    <option value=2>Go/Stop</option>
+  </select>
+  <script>
+  const $select_mode = document.querySelector('#mode');
+  $select_mode.value = {{html_selected_mode}}
+  </script>
+<input type="submit" value="Send">
+</form>
+=> The selected mode is <B><font color="green">{{html_selected_mode_name}}</font></B>.
+
+<h3>Top Speed</h3>
+<form method="POST">
+  <label for="top_speed">Choose a Top Speed:</label>
+  <select id="top_speed" name="top_speed">
+    <option value=0>1</option>
+    <option value=1>2</option>
+    <option value=2>3</option>
+    <option value=3>4</option>
+    <option value=4>5</option>
+    <option value=5>6</option>
+    <option value=6>7</option>
+    <option value=7>8</option>
+    <option value=8>9</option>
+    <option value=9>10</option>
+  </select>
+  <script>
+  const $select_top_speed = document.querySelector('#top_speed');
+  $select_top_speed.value = {{html_selected_top_speed}}
+  </script>
+<input type="submit" value="Send">
+</form>
+=> The selected Top Speed is <B><font color="green">{{html_selected_top_speed_name}}</font></B>.
+
+<h3>Ramp Up</h3>
+<form method="POST">
+  <label for="ramp_up">Choose a Ramp Up:</label>
+  <select id="ramp_up" name="ramp_up">
+    <option value=0>Slow</option>
+    <option value=1>Medium</option>
+    <option value=2>Fast</option>
+  </select>
+  <script>
+  const $select_ramp_up = document.querySelector('#ramp_up');
+  $select_ramp_up.value = {{html_selected_ramp_up}}
+  </script>
+<input type="submit" value="Send">
+</form>
+=> The selected Ramp Up is <B><font color="green">{{html_selected_ramp_up_name}}</font></B>.
+
+<h3>Duration value</h3>
+<form method="POST">
+  <div>
+    <label for="balloons">Choose a Duration Value (in seconds, <60, increment=0.1):</label>
+    <input
+      id="duration_val"
+      type="number"
+      name="duration_val"
+      step="0.1"
+      min="0.1"
+      max="60"
+      required />
+    <span class="validity"></span>
+  <script>
+  const $select_duration_val = document.querySelector('#duration_val');
+  $select_duration_val.value = {{html_selected_duration_val}}
+  </script>
+    <input type="submit" value="Send">
+  </div>
+</form>
+=> The selected Duration Value is <B><font color="green">{{html_selected_duration_val}}</font></B> seconds.
+
+<h3>Ramp Down</h3>
+<form method="POST">
+  <label for="ramp_down">Choose a Ramp Down:</label>
+  <select id="ramp_down" name="ramp_down">
+    <option value=0>Slow</option>
+    <option value=1>Medium</option>
+    <option value=2>Fast</option>
+  </select>
+  <script>
+  const $select_ramp_down = document.querySelector('#ramp_down');
+  $select_ramp_down.value = {{html_selected_ramp_down}}
+  </script>
+<input type="submit" value="Send">
+</form>
+=> The selected Ramp Down is <B><font color="green">{{html_selected_ramp_down_name}}</font></B>.
+</body>
+</html>
