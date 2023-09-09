@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script>
+	<!-- Machine Type = mt -->
+	function getInfo()
+	{
+		const sentValues = [];
+		console.log("submission:");
+		var mt=document.getElementById("mtSelect");
+		var mtDisp=mt.options[mt.selectedIndex].text;
+		document.getElementById("mtValue").innerHTML = mtDisp;
+		sentValues[0]= mt.value;
+		
+		var mo=document.getElementById("moSelect");
+		var moDisp=mo.options[mo.selectedIndex].text;
+		document.getElementById("moValue").innerHTML = moDisp;
+		sentValues[1]= mo.value;
+		
+		var ts=document.getElementById("tsSelect");
+		var tsDisp=ts.options[ts.selectedIndex].text;
+		document.getElementById("tsValue").innerHTML = tsDisp;
+		sentValues[2]= ts.value;
+		
+		var ru=document.getElementById("ruSelect");
+		var ruDisp=ru.options[ru.selectedIndex].text;
+		document.getElementById("ruValue").innerHTML = ruDisp;
+		sentValues[3]= ru.value;
+		
+		var dv=document.getElementById("dvSelect");
+		document.getElementById("dvValue").innerHTML = dv.value;
+		sentValues[4]= dv.value;
+		
+		var rv=document.getElementById("rdSelect");
+		var rvDisp=rv.options[rv.selectedIndex].text;
+		document.getElementById("rdValue").innerHTML = rvDisp;
+		sentValues[5]= rv.value;
+		
+		console.log(sentValues)
+		console.log("end submission");
+	}	
+</script>
+</head>
+<body>
+	<center>
+		<h1>BROTHER&trade; Sidekick</h1>
+		<h2><i>Innovation for Make Sew No Feet</i></h2>
+		<hr/>
+	
+		<!-- send data button - print "sent" values -->
+		
+		
+		 <table>
+		  <tr>
+			<th>Parameter</th>
+			<th>Value</th>
+			<th>Sent Value</th>
+		  </tr>
+		  <tr>
+			<td>Machine Type</td>
+			<td>
+				<select id="mtSelect">
+					<option value=0>Juki 20XX</option>
+					<option value=1>Juki 98E</option>
+					<option value=2>Juki 98Q</option>
+					<option value=3>Janome</option>
+					<option value=4>Brother</option>
+				</select>
+			</td>
+			<td><span id="mtValue"></span></td>
+		  </tr>
+		  <tr>
+			<td>Mode</td>
+			<td>
+				<select id="moSelect">
+					<option value=1>Normal</option>
+					<option value=2>Go/Stop</option>
+				</select>
+			</td>
+			<td><span id="moValue"></span></td>
+		  </tr>
+		  <tr>
+			<td>Top Speed</td>
+			<td>
+				<select id="tsSelect">
+					<option value=0>1</option>
+					<option value=1>2</option>
+					<option value=2>3</option>
+					<option value=3>4</option>
+					<option value=4>5</option>
+					<option value=5>6</option>
+					<option value=6>7</option>
+					<option value=7>8</option>
+					<option value=8>9</option>
+					<option value=9>10</option>
+				</select>
+			</td>
+			<td><span id="tsValue"></span></td>
+		  </tr>
+		  <tr>
+			<td>Ramp Up</td>
+			<td>
+				<select id="ruSelect">
+					<option value=0>Slow</option>
+					<option value=1>Medium</option>
+					<option value=2>Fast</option>
+				</select>
+			</td>
+			<td><span id="ruValue"></span></td>
+		  </tr>
+		  <tr>
+			<td>Duration Value</td>
+			<td>
+				<input
+				  id="dvSelect"
+				  type="number"
+				  name="duration_val"
+				  step="0.1"
+				  min="0.1"
+				  max="60"
+				  required />
+			</td>
+			<td><span id="dvValue"></span></td>
+		  </tr>
+		  <tr>
+			<td>Ramp Down</td>
+			<td>
+				<select id="rdSelect">
+					<option value=0>Slow</option>
+					<option value=1>Medium</option>
+					<option value=2>Fast</option>
+				</select>
+			</td>
+			<td><span id="rdValue"></span></td>
+		  </tr>
+		</table> 
+		
+		<input type="button" value="Send Data" onclick="getInfo();"/>
+	</center>
+	
+	
+	
+		<hr/>
+		<span id="mtValue"></span>
+		<br/>
+		<span id="moValue"></span>
+		<br/>
+		<span id="tsValue"></span>
+		<br/>
+		<span id="ruValue"></span>
+		<br/>
+		<span id="dvValue"></span>
+		<br/>
+		<span id="rdValue"></span>
+		<br/>
+</body>
+
+
+</html>
